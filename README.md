@@ -1,2 +1,2 @@
-# -perfect-react-study-maximilian
+# perfect-react-study-maximilian
 Study project 
