@@ -1,24 +1,18 @@
-# perfect-React-Study-Maximilian-
-Side-Project 1
+Side-Project
+
+# Product cost
+
+>유데미의 React 완벽 가이드 with Redux, Next.js, TypeScript 강의 중 첫 번째 사이드 프로젝트로 상품의 날짜, 이름, 비용을 등록하면 연도별로 상품의 데이터를 가장 하단에  보여주고 상품의 비용을 각 월별로 총합하여 그래프로 보여 줍니다.
 
 
-섹션 5-74
+## 시작 가이드
+-------------
 
-filteredExpenses.length === 0 && <p>데이터가 없습니다.</p> : &&(And연산자) 뒤에 있는 구문이 true 이면 &&(And연산자) 앞에 있는 구문이 실행된다.
+## Installation
+```javascript
+$ npm install
+$ npm start
+```
+## 기타 추가 사항들
 
-이것보다 JSX를 조금더 보기 쉽게 만들어주는 구문은 아래처럼 변수에 문장을 담아주는 것 이다.
-
-let contextExpress = <p>데이터가 없습니다.</p>
-
-  if(filteredExpenses.length > 0) {
-    contextExpress = filteredExpenses.map((items) =>  
-        <ExpenseItem
-          key = {items.id}
-          title = {items.title}
-          amount = {items.amount}
-          date = {items.date}
-        />)
-  }
-
-
-섹션 5-75
+https://dinosaur1.tistory.com/109
