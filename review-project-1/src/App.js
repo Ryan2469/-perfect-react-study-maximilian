@@ -25,12 +25,10 @@ function App() {
   // console.log(userData.map((itmes => itmes.name)));
 
   return (
-    <div>
-      <AddNewUser 
-        onUserInfo = {userInfo}
-      />
+    <React.Fragment>
+      <AddNewUser onUserInfo = {userInfo}/>
       <CreatedUser users={userData}/>
-    </div>
+    </React.Fragment>
   );
 }
 
